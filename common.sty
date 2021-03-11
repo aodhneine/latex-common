@@ -1,0 +1,16 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{common}[2021/03/06]
+
+% Better text formatting.
+\newcommand{\itl}[1]{\textit{#1}}
+\newcommand{\bld}[1]{\textbf{#1}}
+\newcommand{\vrb}[1]{\texttt{#1}}
+
+% Environments inspired by Tufte's books.
+%\newenvironment{example}{\medskip\textsc{Example}}{\medskip}
+%\newenvironment{definition}{\medskip\textsc{Definition}}{\medskip}
+%\newenvironment{theorem}{\medskip\textsc{Theorem}}{\medskip}
+
+\newenvironment{example}{\medskip\textit{Example.}}{\medskip}
+\newenvironment{definition}{\medskip\textbf{Definition.}}{\medskip}
+\newenvironment{theorem}{\medskip\textbf{Theorem.}\itshape}{\medskip}

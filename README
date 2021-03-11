@@ -1,0 +1,9 @@
+Set of command styles and commands for LaTeX things I write.
+
+Probably not interesting to anyone but me. If you want to use it though, simply
+copy the .sty files into your project and use them as normal packages.
+
+
+                                   Licensing
+
+Released into the public domain, can be used under 0-clause BSD License.
