@@ -1,14 +1,20 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{commonmth}[2021/03/11]
 
+%% Logic notation.
 \newcommand{\lto}{\Rightarrow}
 \newcommand{\liff}{\Leftrightarrow}
 \newcommand{\entails}{\vdash}
 \newcommand{\amod}[1]{\ (\mathrm{mod}\ #1)}
-\newcommand{\set}[1]{\{\,#1\,\}}
-\newcommand{\quoset}[1]{#1/{\sim}}
+%% Common set notation.
 \newcommand{\Z}{\mathbb{Z}}
-\newcommand{\ZnZ}[1][n]{\Z/#1\Z}
-\newcommand{\angbr}[1]{\langle #1 \rangle}
 \newcommand{\N}{\mathbb{N}}
+% Quotient set/group/ring/field of integers.
+\newcommand{\ZnZ}[1][n]{\Z/#1\Z}
+% Provides nicely formatted sets.
+\newcommand{\set}[1]{\{\,#1\,\}}
+% Quotient set.
+\newcommand{\quoset}[1]{#1/{\sim}}
+\newcommand{\angbr}[1]{\langle #1 \rangle}
+% Equivalence class.
 \newcommand{\eqvcl}[1]{\overline{#1}}
